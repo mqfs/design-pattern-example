@@ -1,4 +1,4 @@
-package com.company.designpatternsexamples.factory;
+package com.company.designpatternsexamples.factorypattern;
 
 import com.company.designpatternsexamples.languages.Language;
 import com.company.designpatternsexamples.languages.impl.Cpp;

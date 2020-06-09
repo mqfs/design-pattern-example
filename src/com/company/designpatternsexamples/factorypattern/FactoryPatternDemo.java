@@ -1,8 +1,8 @@
-package com.company.designpatternsexamples.factory;
+package com.company.designpatternsexamples.factorypattern;
 
 import com.company.designpatternsexamples.languages.Language;
 
-public class FactoryDemo {
+public class FactoryPatternDemo {
 
     public static void main(String[] args) {
         LanguageFactory languageFactory = new LanguageFactory();
