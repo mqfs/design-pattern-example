@@ -1,2 +1,2 @@
-#抽象工厂模式  
+# 抽象工厂模式  
 用于系统中存在多个产品族或者说是存在多种工厂。首先声明一个抽象的工厂类`AbstractFactory`，然后再声明两个工厂类继承自抽象的工厂类分别为`IdeFactory`和`LanguageFactory`。因为在`AbstractFactory`类里有两个抽象的方法用于给对应的工厂生成指定的产品，所以在`IdeFactory`和`LanguageFactory`类里分别实现各自产品族的生成产品的逻辑。最后再声明一个生成工厂类`FactoryProducer`用于生成指定的工厂类的实例。
